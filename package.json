@@ -1,0 +1,22 @@
+{
+  "name": "regex",
+  "version": "1.0.0",
+  "description": "A helpful module to help using regular expression.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlfoorTurk/regex.git"
+  },
+  "keywords": [
+    "regular expression",
+    "regex"
+  ],
+  "author": "BlfoorTurk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlfoorTurk/regex/issues"
+  },
+  "homepage": "https://github.com/BlfoorTurk/regex#readme"
+}
