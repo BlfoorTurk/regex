@@ -1,4 +1,4 @@
-# regex-core
+# Regex-core
 
 Regex-core is a well-designed helpful javascript module for using regular expressions in Javascript. It has some good tools to make you felt comfortable when you work with regular expression in Javascript.
 
