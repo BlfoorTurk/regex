@@ -1,5 +1,5 @@
 {
-  "name": "regex",
+  "name": "regex-core",
   "version": "0.0.1",
   "description": "A helpful module to help using regular expression.",
   "main": "main.js",
@@ -7,16 +7,17 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlfoorTurk/regex.git"
+    "url": "git+https://github.com/BlfoorTurk/regex-core.git"
   },
   "keywords": [
     "regular expression",
-    "regex"
+    "regex",
+    "regex-core"
   ],
   "author": "BlfoorTurk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BlfoorTurk/regex/issues"
+    "url": "https://github.com/BlfoorTurk/regex-core/issues"
   },
-  "homepage": "https://github.com/BlfoorTurk/regex#readme"
+  "homepage": "https://github.com/BlfoorTurk/regex-core#readme"
 }

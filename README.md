@@ -1,21 +1,21 @@
-# regex
+# regex-core
 
-Regex is a well-designed helpful javascript module for using regular expressions in Javascript. It has some good tools to make you felt comfortable when you work with regular expression in Javascript.
+Regex-core is a well-designed helpful javascript module for using regular expressions in Javascript. It has some good tools to make you felt comfortable when you work with regular expression in Javascript.
 
 # Installation
 
-Regex module is available in npm (node package manager), you can install it by writing this text to your terminal.
+Regex-core module is available in npm (node package manager), you can install it by writing this text to your terminal.
 
 ```
-npm i regex
+npm i regex-core
 ```
 
 # Usage
 
-Regex module is very easy to use. First of all you should import it to your project.
+Regex-core module is very easy to use. First of all you should import it to your project.
 
 ```javascript
-import * as regex from "regex";
+import * as regex from "regex-core";
 ```
 
 Its tools' definition is below:
@@ -27,7 +27,7 @@ RegexTree is a javascript class that has some useful methods to work with multip
 First of all, to use it we should import it to our project.
 
 ```javascript
-import { RegexTree } from "regex";
+import { RegexTree } from "regex-core";
 ```
 
 We can create a RegexTree object by passing an array of objects that have regex property to its constructor. By the way, you should define a property called regex but you can define other properties too.
