@@ -20,7 +20,7 @@ import * as regex from "regex-core";
 
 Its tools' definition is below:
 
-## RegexTree Class
+### RegexTree Class
 
 RegexTree is a javascript class that has some useful methods to work with multiple regular expressions. You can create a RegexTree object by passing an array of regular expressions to its constructor.
 
@@ -83,3 +83,21 @@ tree.test("Test");
 **Some Notes:**
 <br>- Every regex object has its id properties.
 <br>- In test method's returning value, there is a property called result that is a boolean value to show the test's result.
+
+### Unite Function
+
+Unite function is a javascript function that combines multiple regular expressions into one regular expression. All you have to do is to pass the regular expressions to the function as arguments.
+
+First of all, to use it we should import it to our project.
+
+```javascript
+import { unite } from "regex-core";
+```
+
+Its example usage is below:
+
+```javascript
+const regexes = [/a/g, /\d{5,}/, /[a-z]+/gi];
+console.log(unite(...regexes));
+// output: /a\d{5,}[a-z]+/gi
+```

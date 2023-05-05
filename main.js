@@ -77,3 +77,19 @@ export class RegexTree {
     return this.elements.filter((element) => !element.regex.test(testValue));
   }
 }
+
+/**
+ * @description A function for uniting multiple regexes into one.
+ * @param  {Array} regexes An array of regexes which are going to be united.
+ * @returns {RegExp} A new regex which is the union of all of the regexes.
+ */
+export const unite = function (...regexes) {
+  if (!regexes.length) throw new Error('You must provide at least one regex.');
+  if (!regexes.every(regex => regex instanceof RegExp))
+    throw new Error('All of the inputs must be regexes.');
+  const regexText = regexes.reduce((acc, reg) => acc + reg.source, '');
+  const regexFlag = [
+    ...new Set(regexes.reduce((acc, reg) => acc + reg.flags, '')),
+  ].join('');
+  return new RegExp(regexText, regexFlag);
+};
